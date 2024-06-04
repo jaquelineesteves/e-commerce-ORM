@@ -21,7 +21,7 @@ router.get('/:id', async (req, res) => {
     Tag.findByPk(req.params.id);
 
     if (!tagData) {
-      res.status(404).json({ message:'No category found with this id'});
+      res.status(404).json({ message:'No Tag found with this id'});
       return;
     }
     res.status(200).json(tagData);
@@ -37,7 +37,7 @@ router.get('/:id', async (req, res) => {
 router.post('/', async(req, res) => {
   try { const tagData = await 
     Tag.create(req.body);
-    res.status(200).json(tagData);
+    res.status(200).json(`Tag posted!`)
     }
     catch(err){
       console.log(err);
@@ -53,7 +53,7 @@ router.put('/:id', async (req, res) => {
             id:req.params.id
         }
     });
-    res.status(200).json(tagData);
+    res.status(200).json(`Tag updated!`);
 }
 catch (err){
     if (!tagData){
@@ -73,7 +73,7 @@ router.delete('/:id', async (req, res) => {
       res.status(404).json({ message:'No tag found with this id'});
       return;
     }
-    res.status(200).json(tagData);
+    res.status(200).json(`Tag Deleted!`);
     }
     catch(err){
       console.log(err);
