@@ -2,7 +2,7 @@
   ![MIT](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)
   
   ## Description 
-   It's a back-end application that the User can see, add, update and delete products, categories and tags from an e commerce, this application uses postgres, sequelize and npm express.
+   As showing in #videos It's a REST API back-end application that the User can see, add, update and delete products, categories and tags from an e commerce, this application uses postgres, sequelize and npm express.js.
 
   ## Table of Contents 
   * [Installation](#installation)
