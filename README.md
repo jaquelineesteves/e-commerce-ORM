@@ -2,7 +2,13 @@
   ![MIT](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)
   
   ## Description 
-   It's a back-end application that the User can see, add, update and delete products, categories and tags from an e commerce, this application uses postgres, sequelize and npm express.
+   As demonstrated in the accompanying #videos, this is a REST API back-end application designed for managing products, categories, and tags in an e-commerce platform. The application allows users to view, add, update, and delete these entities. It leverages PostgreSQL for database management, Sequelize as the ORM (Object-Relational Mapping) tool, and Express.js via npm for handling server-side logic.
+
+Technologies:
+
+PostgreSQL for database storage.
+Sequelize for ORM and database interactions.
+Express.js (npm package) for building the REST API.
 
   ## Table of Contents 
   * [Installation](#installation)
